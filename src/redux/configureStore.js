@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux'
-import createLogger from 'redux-logger'
+import { createLogger } from 'redux-logger'
 import toDoApp from './modules/toDoApp'
 
 //初始化logger
